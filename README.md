@@ -1,4 +1,4 @@
-[![Lint Format Test Install](https://github.com/johncoogan53/DataPipeline/actions/workflows/CICD.yaml/badge.svg)](https://github.com/johncoogan53/DataPipeline/actions/workflows/CICD.yaml)
+[![Lint Format Test Install](https://github.com/johncoogan53/Databricks_ETL/actions/workflows/CICD.yaml/badge.svg)](https://github.com/johncoogan53/Databricks_ETL/actions/workflows/CICD.yaml)
 # Azure Databricks ETL Pipeline
 ![Alt text](<images/Databricks ETL.png>)
 ## Overview
