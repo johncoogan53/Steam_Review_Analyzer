@@ -20,6 +20,7 @@ The transform and load script selects columns of interest and removes unecessary
 
 Finally, a visualization notebook uses the generated delta table to perform quick visualizations and save them to the projects data folder. Below we see a visualization for reviews of the game No Man's Sky. This plot shows the relationship between User Up Votes of other people's reviews and the Steam calculated weighted vote score:
 ![Alt text](data_pipe/data/visualization1.png)
+
 This plot is generated dynamically at the end of a scheduled pipeline so the plot we generate today could look very different than the plot we generate a week from now. It will contain the most up to date information. This plot specifically provides interesting insights about the relationship between what user's consider to be a valuable review and what steam weights as a valuable review. The fact that these are inverse is an interesting look into behavioral psychology.
 
 This plot, incidentally, gives us more insight into a Steam business decision than the developers of No Man's Sky. It is clear that Steam's weighted vote score has an inverse relationship with the User Up Votes (a passable metric for user defined review quality). This being the case, they should seriously consider redefining the equation for weighted vote so that it more closely correlates with user up votes. 
